@@ -1,4 +1,6 @@
 # Mol-SGGI
 A Comprehensive Multi-Representation Learning Framework for Molecular Property Prediction<br>
-OverView<br>
-![Mol-SGGI framework diagram]((https://github.com/Xiaoka02/Mol-SGGI/blob/main/image/Mol-SGGI%20framework%20diagram.png))
+# OverView<br>
+
+
+![Mol-SGGI framework diagram](image/Mol-SGGI%20framework%20diagram.png)
