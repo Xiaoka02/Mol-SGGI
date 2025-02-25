@@ -33,10 +33,14 @@ Run the command directly and specify the dataset name and task type. <br>
 If the specified dataset does not exist or is unprocessed, the program automatically performs the data processing steps and generates molecular characterization data for the corresponding dataset. The data will be stored in the following structure:
 ```bash
 data/
-  └── bace/
+  ├── bace/
       ├── image/
-      └── processed/
-          ├── bace_label.csv
-          ├── bace_processed.csv
-          ├── bace.csv
-          └── part-000000.npz
+          └── 1.png
+          └── 2.png
+               .
+               .
+      ├── processed/
+          └── bace_label.csv
+          └── bace_processed.csv
+      └── bace.csv
+      └── part-000000.npz
