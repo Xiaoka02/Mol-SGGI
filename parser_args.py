@@ -71,7 +71,7 @@ def get_args():
     parser.add_argument('--latent_dim', type=int, default=256)
 
     ''' Training'''
-    parser.add_argument('--epochs', type=int, default=4)
+    parser.add_argument('--epochs', type=int, default=40)
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--lr', type=float, default=1e-3)
     parser.add_argument('--bias', type=int, default=1)
@@ -89,7 +89,7 @@ def get_args():
                         help='Number of epochs during which learning rate increases linearly from'
                              'init_lr to max_lr. Afterwards, learning rate decreases exponentially'
                              'from max_lr to final_lr.')
-    parser.add_argument('--num_runs', type=int, default=1)
+    parser.add_argument('--num_runs', type=int, default=5)
 
     ''' Options '''
     parser.add_argument('--gpu', type=int, default=0)
