@@ -35,10 +35,6 @@ If the specified dataset does not exist or is unprocessed, the program automatic
 data/
   ├── bace/
       ├── image/
-          └── 1.png
-          └── 2.png
-               .
-               .
       ├── processed/
           └── bace_label.csv
           └── bace_processed.csv
