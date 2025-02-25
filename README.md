@@ -26,7 +26,7 @@ We used MoleculeNet as our benchmark test, and the experimental MoleculeNet data
 - `scipy==1.7.3`
 
 ## Usage
-Run the command directly and specify the dataset name and task type.
+Run the command directly and specify the dataset name and task type. <br>
 `python main.py --dataset {dataset_name} --task_type {reg/class}`
 
 If the specified dataset does not exist or is unprocessed, the program automatically performs the data processing steps and generates molecular characterization data for the corresponding dataset. The data will be stored in the following structure:
