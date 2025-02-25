@@ -6,7 +6,7 @@ A Comprehensive Multi-Representation Learning Framework for Molecular Property P
 ![Mol-SGGI framework diagram](image/Mol-SGGI%20framework%20diagram.png)
 
 ## Dataset
-We used MoleculeNet as our benchmark test, and the experimental MoleculeNet dataset is available under [this link](https://moleculenet.org/datasets-1)
+We used MoleculeNet as our benchmark test, and the experimental MoleculeNet dataset is available under [this link](https://moleculenet.org/datasets-1).
 
 ## Setup Environment
 - `python==3.9`
@@ -25,4 +25,7 @@ We used MoleculeNet as our benchmark test, and the experimental MoleculeNet data
 - `scikit-learn==1.0.2`
 - `scipy==1.7.3`
 
-
+## Usage
+Run the command directly and specify the dataset name and task type.
+```bash
+python main.py --dataset {dataset_name} --task_type {reg/class}
