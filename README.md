@@ -3,7 +3,7 @@ A Comprehensive Multi-Representation Learning Framework for Molecular Property P
 
 ## OverView<br>
 
-![Mol-SGGI framework diagram](Overall framework diagram.jpg)
+([Overall framework diagram.jpg](https://github.com/Xiaoka02/Mol-SGGI/blob/main/Overall%20framework%20diagram.jpg))
 
 ## Dataset
 We used MoleculeNet as our benchmark test, and the experimental MoleculeNet dataset is available under [this link](https://moleculenet.org/datasets-1).
