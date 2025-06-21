@@ -2,7 +2,7 @@
 A Comprehensive Multi-Representation Learning Framework for Molecular Property Prediction
 
 ## OverView<br>
-
+Overall framework diagram of Mol-SGGI
 ![Overall Framework Diagram](./Overall%20framework%20diagram.jpg)
 
 ## Dataset
