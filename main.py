@@ -441,12 +441,7 @@ def main(args):
         model = Multi_modal(args, device)
 
         optimizer = Adam(params=model.parameters(), lr=args.init_lr, weight_decay=1e-5)
-
-        # Noam
-        # schedule = NoamLR(optimizer=optimizer, warmup_epochs=[args.warmup_epochs], total_epochs=[args.epochs],
-        #                   steps_per_epoch=len(train_idx) // args.batch_size, init_lr=[args.init_lr],
-        #                   max_lr=[args.max_lr], final_lr=[args.final_lr])
-
+      
         # Cosine annealing learning rate scheduler
         scheduler = CosineAnnealingLR(optimizer, T_max=args.epochs, eta_min=args.final_lr)
 
