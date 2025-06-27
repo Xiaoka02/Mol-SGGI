@@ -10,7 +10,7 @@ def get_args():
     parser.add_argument('--sequence', type=bool, default=True)
     parser.add_argument('--seq_hidden_dim', type=int, default=256)
     parser.add_argument('--max_seq_length', type=int, default=96, help='Maximum sequence length for BERT')
-    parser.add_argument('--bert_model_path', type=str, default=r'data/bert_pretrained/molbert', help='Path to BERT model')
+    parser.add_argument('--bert_model_path', type=str, default=r'data/bert_pretrained/RoBERTa', help='Path to BERT model')
     parser.add_argument('--bert_num_heads', type=int, default=12, help='Number of attention heads in BERT model')
     parser.add_argument('--bert_hidden_dim', type=int, default=768)
 
