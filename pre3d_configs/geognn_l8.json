@@ -10,4 +10,4 @@
     "dropout_rate": 0.5,
     "layer_num": 8,
     "readout": "mean"
-}
+} 
