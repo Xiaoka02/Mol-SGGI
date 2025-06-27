@@ -12,7 +12,7 @@ SOS = 3
 MASK = 4
 
 
-class MolBERT(nn.Module):
+class SeqModel(nn.Module):
     def __init__(self, hidden_size, dropout, device, model_path, max_length, num_heads=8):
         super().__init__()
         self.device = device
