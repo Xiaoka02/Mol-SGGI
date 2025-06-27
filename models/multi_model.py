@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from torch_geometric.nn import global_mean_pool, GlobalAttention
 from models.gnn_model import GNNModel
 from models.gem_model import GeoModel
-from models.seq_model import MolBERT
+from models.seq_model import SeqModel
 # from models_lib.img_model import ImageFeatureExtractor
 from models.img_model import MolecularImageModel
 
@@ -25,7 +25,7 @@ class Multi_modal(nn.Module):
         self.image = args.image
 
         if self.sequence:
-            self.transformer = MolBERT(hidden_size=args.bert_hidden_dim, dropout=args.dropout, device=device,
+            self.transformer = SeqModel(hidden_size=args.bert_hidden_dim, dropout=args.dropout, device=device,
                                        model_path=args.bert_model_path, max_length=args.max_seq_length,
                                        num_heads=args.bert_num_heads).to(self.device)
 
