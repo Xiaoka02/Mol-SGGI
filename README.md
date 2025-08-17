@@ -42,6 +42,4 @@ data/
       └── bace.csv
       └── part-000000.npz
 
-## Reference <br>
-Based on: https://github.com/Vencent-Won/SGGRL
 
