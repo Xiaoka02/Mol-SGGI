@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''
+Original: Vencent_Wang
+Based on: https://github.com/Vencent-Won/SGGRL
+'''
+
 import os
 import copy
 import torch
