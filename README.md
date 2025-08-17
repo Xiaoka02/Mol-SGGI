@@ -41,3 +41,7 @@ data/
           └── bace_processed.csv
       └── bace.csv
       └── part-000000.npz
+
+## **Reference**
+Based on: https://github.com/Vencent-Won/SGGRL
+
